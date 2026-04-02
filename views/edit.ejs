@@ -1,17 +1,20 @@
 <%- include("partials/header.ejs") %>
 
-<% if(locals.curr_data){ %>
+<div class="create-container">
+    <% if(locals.curr_data){ %>
+        <p class="heading">Edit your post</p>
+        <p>Update the details:</p>
+        <form action="/edit/<%= curr_data.id %>" method="post">
+            <input type="text" placeholder="Title" name="title" class="title" value="<%= curr_data.title %>">
+            <input type="text" placeholder="Description" name="description" class="description" value="<%= curr_data.description %>">
+            <textarea name="content" class="content" placeholder="Content"><%= curr_data.content %></textarea>
+            <input type="text" placeholder="Author Name" name="author" class="author" value="<%= curr_data.author %>">
+            <input type="submit" value="Save" class="submit-btn">
+        </form>
+    <% } %>
+</div>
 
-<% } %>
-<p class="heading">Edit your post</p>
-<p>Update the details:</p>
-<form action="/edit/<%= curr_data.id %>" method="post">
-    <input type="text" placeholder="Title" name="title" class="title" value="<%= curr_data.title %>">
-    <input type="text" placeholder="Description" name="description" class="description" value="<%= curr_data.description %>">
-    <textarea name="content" class="content" placeholder="Content"><%= curr_data.content %></textarea>
-    <input type="text" placeholder="Author Name" name="author" class="author" value="<%= curr_data.author %>">
-    <input type="submit" value="Save" class="submit-btn">
-</form>
+
 
 <%- include("partials/footer.ejs") %>
 

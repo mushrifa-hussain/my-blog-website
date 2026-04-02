@@ -6,10 +6,10 @@
         <% for(let i = 0; i <= data_arr.length-1; i++){ %>
             <div class="post-container">
                 <div class="detail">
-                    <p>Title: <%= data_arr[i].title %></p> 
-                    <p>Description: <%= data_arr[i].description %></p>
-                    <p>Author: <%= data_arr[i].author %></p>
-                    <p>Date: <%= data_arr[i].date %></p>
+                    <p><b>Title:</b> <%= data_arr[i].title %></p> 
+                    <p><b>Description:</b> <%= data_arr[i].description %></p>
+                    <p><b>Author:</b> <%= data_arr[i].author %></p>
+                    <p><b>Date:</b> <%= data_arr[i].date %></p>
                 </div>
                 <div class="buttons">
                     <a href="/view/<%= data_arr[i].id %>">

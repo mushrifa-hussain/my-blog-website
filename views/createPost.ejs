@@ -1,13 +1,16 @@
 <%- include("partials/header.ejs") %>
 
-<p class="heading">Create your post</p>
-<p>Enter the details:</p>
-<form action="/blogs" method="post">
-    <input type="text" placeholder="Title" name="title" class="title">
-    <input type="text" placeholder="Description" name="description" class="description">
-    <textarea name="content" class="content" placeholder="Content"></textarea>
-    <input type="text" placeholder="Author Name" name="author" class="author">
-    <input type="submit" value="Create" class="submit-btn">
-</form>
+<div class="create-container">
+    <p class="heading">Create your post</p>
+    <p>Enter the details:</p>
+    <form action="/blogs" method="post">
+        <input type="text" placeholder="Title" name="title" class="title">
+        <input type="text" placeholder="Description" name="description" class="description">
+        <textarea name="content" class="content" placeholder="Content"></textarea>
+        <input type="text" placeholder="Author Name" name="author" class="author">
+        <input type="submit" value="Create" class="submit-btn">
+    </form>
+</div>
+
 
 <%- include("partials/footer.ejs") %>

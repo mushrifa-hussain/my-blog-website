@@ -1,6 +1,29 @@
 .view-container{
     display: flex;
     flex-direction: column;
-    width: 70vw;
+    max-width: 70vw;
+    margin: 40px auto;
     text-align: justify;
+    font-size: 18px;
+}
+
+.view-container p,
+.view-container h2{
+    word-break: break-word;
+}
+
+/* Tablets */
+@media (max-width: 900px){
+    .view-container{
+        max-width: 85vw;
+        font-size: 16px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px){
+    .view-container{
+        max-width: 95vw;
+        font-size: 14px;
+    }
 }

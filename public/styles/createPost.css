@@ -1,3 +1,8 @@
+.create-container{
+    width: 50rem;
+}
+
+
 form{
     display: flex;
     flex-direction: column;
@@ -10,7 +15,7 @@ form{
 }
 
 form > input, form > textarea{
-    width: 50rem;
+    width: 100%;
     height: 2.5rem;
     padding-left: 10px;
 }
@@ -26,4 +31,28 @@ form > .submit-btn{
     border: 1px solid rgb(184, 129, 58);
     border-radius: 8px;
     color: white;
+}
+
+@media(max-width: 850px){
+    .create-container{
+        width: 30rem;
+    }
+
+    form > .submit-btn{
+        font-size: 15px;
+        width: 15%;
+        height: 30px;
+    }
+}
+
+@media(max-width: 545px){
+    .create-container{
+        width: 20rem;
+    }
+
+    form > .submit-btn{
+        font-size: 10px;
+        width: 20%;
+        height: 30px;
+    }
 }

@@ -19,3 +19,9 @@
 p{
     font-weight: 350;
 }
+
+@media(max-width: 769px){
+    .heading-main{
+    font-size: 1.8rem;
+}
+}

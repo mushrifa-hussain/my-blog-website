@@ -12,8 +12,35 @@
     transition: transform 0.2s ease-in-out, box-shadow 0.3s ease;
 }
 
-.detail > p{
+@media(max-width: 850px){
+    .post-container{
+        width: 40rem;
+    }
+}
+
+@media(max-width: 700px){
+    .post-container{
+        width: 30rem;
+        overflow-wrap: break-word;
+    }
+}
+
+@media(max-width: 500px){
+    .post-container{
+        width: 20rem;
+        overflow-wrap: break-word;
+    }
+}
+
+.detail{
+    flex: 1;
+    max-width: 80%;
+}
+
+.detail p{
     margin-bottom: 0px;
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
 
 .buttons{
@@ -23,8 +50,7 @@
     gap: 10px;
 }
 
-.buttons
- button{
+.buttons button{
     border-radius: 6px;
     width: 5rem;
     border: none !important;
