@@ -1,0 +1,30 @@
+<%- include("partials/header.ejs") %>
+
+<div class="nav-container">
+    <h4>Blogs</h4>
+    <% if(locals.data_arr){ %>
+        <% for(let i = 0; i <= data_arr.length-1; i++){ %>
+            <div class="post-container">
+                <div class="detail">
+                    <p>Title: <%= data_arr[i].title %></p> 
+                    <p>Description: <%= data_arr[i].description %></p>
+                    <p>Author: <%= data_arr[i].author %></p>
+                    <p>Date: <%= data_arr[i].date %></p>
+                </div>
+                <div class="buttons">
+                    <a href="/view/<%= data_arr[i].id %>">
+                        <button class="view">view -></button>
+                    </a>
+                    <a href="/edit/<%= data_arr[i].id %>">
+                        <button class="edit">Edit</button>
+                    </a>
+                    <a href="/delete/<%= data_arr[i].id %>">
+                        <button class="delete">Delete</button>
+                    </a>
+                </div>
+            </div>
+        <% } %>
+    <% } %>
+</div>
+
+<%- include("partials/footer.ejs") %>

@@ -1,0 +1,46 @@
+.post-container{
+    width: 50rem;
+    background-color: rgb(243, 182, 102);
+    box-shadow: 0px 4px 10px rgb(230, 163, 77);
+    border-radius: 10px;
+    line-height: 25px;
+    border: 0.5px solid rgb(249, 166, 57);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s ease;
+}
+
+.detail > p{
+    margin-bottom: 0px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttons
+ button{
+    border-radius: 6px;
+    width: 5rem;
+    border: none !important;
+}
+
+.buttons .edit{
+    background-color: #42a5b5;
+    border: 0.5px solid black;
+}
+
+.buttons .delete{
+    background-color: #f14545;
+    border: 0.5px solid black;
+    margin-bottom: 0px;
+}
+
+.buttons .view{
+    border: 0.5px solid black;
+}

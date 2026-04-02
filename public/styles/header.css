@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-pills .nav-link.active{
+    background-color: rgb(230, 163, 77);
+}
+
+.btn{
+    background-color: rgb(230, 163, 77);
+}

@@ -1,0 +1,14 @@
+.nav-container{
+    text-align: justify;
+    max-width: 1000px;
+}
+
+.heading-nav{
+    font-weight: 400;
+    font-size: large;
+}
+
+.nav-container > h4{
+    text-align: center;
+    margin-bottom: 30px;
+}

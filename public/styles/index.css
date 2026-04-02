@@ -1,0 +1,21 @@
+.btn-primary{
+        --bs-btn-border-color: #42a5b5;
+        --bs-btn-hover-bg: #42a5b5;
+        --bs-btn-active-bg: #36828e;
+        height: 80px;
+        width: 70px;
+        font-size: 1.5rem;
+}
+
+.container{
+    text-align: center;
+}
+
+.heading-main{
+    font-size: 2rem;
+    margin-bottom: 9rem;
+}
+
+p{
+    font-weight: 350;
+}

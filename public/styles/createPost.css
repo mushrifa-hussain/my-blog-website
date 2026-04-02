@@ -1,0 +1,29 @@
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.heading{
+    font-size: 2rem;
+}
+
+form > input, form > textarea{
+    width: 50rem;
+    height: 2.5rem;
+    padding-left: 10px;
+}
+
+form > .content{
+    height: 11rem;
+}
+
+form > .submit-btn{
+    width: 10%;
+    height: 40px;
+    background-color: rgb(230, 163, 77);
+    border: 1px solid rgb(184, 129, 58);
+    border-radius: 8px;
+    color: white;
+}

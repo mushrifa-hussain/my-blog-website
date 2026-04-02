@@ -1,0 +1,6 @@
+.view-container{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    text-align: justify;
+}

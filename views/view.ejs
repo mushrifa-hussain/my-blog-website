@@ -1,0 +1,13 @@
+<%- include("partials/header.ejs") %>
+
+<div class="view-container">
+    <% if(locals.curr_data){ %>
+        <h2>Title: <%= curr_data.title %></h2>
+        <p><b>Description: </b><%= curr_data.description %></p>
+        <p><b>Content:</b> <%= curr_data.content %></p>
+        <p><b>Author:</b> <%= curr_data.author %></p>
+        <p><b>Date:</b> <%= curr_data.date %></p>
+    <% } %>
+</div>
+
+<%- include("partials/footer.ejs") %>
