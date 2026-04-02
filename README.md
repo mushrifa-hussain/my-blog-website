@@ -66,51 +66,38 @@ My Blog Website
 
 ### Home Page
 
-(Add screenshot here)
-
-```
-images/home.png
-```
-
----
-
-### Blogs Page
-
-(Add screenshot here)
-
-```
-images/blogs.png
-```
-
----
-
-### View Blog Page
-
-(Add screenshot here)
-
-```
-images/view-blog.png
-```
+<img width="1919" height="1044" alt="image" src="https://github.com/user-attachments/assets/5fc3ea80-9022-4001-b307-eeeba8f0ece5" />
 
 ---
 
 ### Create Blog Page
 
-(Add screenshot here)
+<img width="1919" height="1002" alt="image" src="https://github.com/user-attachments/assets/ac141f11-b796-48e8-bf29-6d35fd6bf6f9" />
 
-```
-images/create-blog.png
-```
+---
+
+### Blogs Page
+
+<img width="1919" height="1055" alt="image" src="https://github.com/user-attachments/assets/20f8a937-ef2d-4bd3-8c61-7110a214e4a0" />
+
+---
+
+### View Blog Page
+
+<img width="1916" height="1037" alt="image" src="https://github.com/user-attachments/assets/bfc97718-15ec-4bdc-a562-6fd63c542efe" />
 
 ---
 
 ### Edit Blog Page
 
-(Add screenshot here)
+<img width="1919" height="1064" alt="image" src="https://github.com/user-attachments/assets/7a07997e-129b-463a-8026-21483df26dd5" />
 
-```
-images/edit-blog.png
-```
+---
+
+### Delete Blog
+
+<img width="1919" height="1061" alt="image" src="https://github.com/user-attachments/assets/ec546617-221a-44b1-9c90-4f1ecfd2f1cb" />
+
 
 ---
 
