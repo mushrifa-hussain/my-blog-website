@@ -16,7 +16,7 @@ It was developed while learning **Full Stack Web Development** to understand how
 * Delete blog posts
 * Dynamic routing using Express
 * Server-side rendering using EJS
-* Clean UI using Bootstrap
+* Clean UI using Bootstrap and custom css
 
 ---
 
